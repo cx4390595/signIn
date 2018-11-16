@@ -1,0 +1,60 @@
+
+.wap-main{
+    background: url("../images/bg.jpg") repeat top/contain;
+}
+img{
+    width: 100%;
+}
+.signInHome_modC{
+    padding-bottom: 0.8rem;
+}
+.signInHome_modC .banner{
+   position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.signInHome_modC .banner .rule_btn{
+    position: absolute;
+    top:3.6rem;
+    right: -1.5rem;
+    width: 5.6rem;
+    height:1.34rem ;
+    font-size: 0.6rem;
+    font-weight: bold;
+    text-indent: 0.6rem;
+    line-height: 1.34rem;
+    /*background: #ffa800;*/
+    border-radius: 1rem;
+    /*color: #fff;*/
+}
+.signInHome_modC .signIn_main .cont .title{
+    font-size: 0;
+}
+.signInHome_modC .signIn_main .title img{
+    display: inline-block;
+    width: 1.7rem;
+    height: 1.52rem;
+    vertical-align: top;
+}
+    /*轮播*/
+.signInHome_modC .carousel{
+    width: 13.04rem;
+    height: 1.92rem;
+    margin: auto;
+    border-radius: 1rem;
+    border: 0.02rem dashed #ffa800;
+    font-size: 0.6rem;
+    overflow: hidden;
+}
+/*广告*/
+.signInHome_modC .AD{
+    margin: 0.8rem auto;
+}
+/*说明*/
+.signInHome_modC .explain{
+    text-align: center;
+}
+.signInHome_modC .explain img{
+    width: 12.04rem;
+    pointer-events: none;
+}

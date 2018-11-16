@@ -1,0 +1,101 @@
+/*日历样式开始*/
+.signIn_main .cont{
+    margin:0 1rem ;
+    padding-bottom: 0.6rem;
+    height: 14.78rem;
+    background-color: #fff;
+    border-radius: 0.4rem;
+    box-shadow: 0.2rem 0.2rem 0 0 #fade3b;
+}
+.signIn_main .cont .title{
+    padding-top: 0.5rem;
+    margin-left: 1.3rem;
+    font-size: 0;
+}
+.signIn_main .cont .title span{
+    position: relative;
+    display: inline-block;
+    color: #ff4189;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    background: url("../images/icon1.png") no-repeat left/contain;
+}
+.signIn_main .cont .week{
+    margin: 0.4rem 1.2rem 0.2rem;
+    height: 1.2rem;
+    color: #845100;
+    background: #ffe79f;
+    border-radius: 0.3rem 0.3rem 0 0;
+    font-size:0.48rem ;
+    line-height: 1.2rem;
+    letter-spacing:1.05rem;
+    text-indent: 0.4rem;
+    white-space: nowrap;
+}
+.signIn_main .cont .month{
+    color: #838383;
+    margin:-0.03rem auto ;
+    width: 10.8rem;
+
+}
+
+.signIn_main .cont .month li{
+    font-size: 0.72rem;
+    width:1.48rem;
+    height: 1.48rem;
+    border-radius:0.25rem ;
+    background: #dcf4ff;
+    text-align: center;
+    line-height: 1.48rem;
+    margin: 0.03rem;
+    float: left;
+}
+.signIn_main .cont .month li.onOff{
+    background:  #dcf4ff url("../images/onOff.png") no-repeat center/contain;
+    color: #ff4189;
+    font-weight: bold;
+}
+.signIn_main .cont .pop{
+    margin-top: 0.7rem;
+}
+.signIn_main .cont .pop{
+    font-size:0.48rem;
+    color: #ffa800;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+}
+.signIn_main .cont .pop strong:nth-of-type(1){
+    float: left;
+    margin-left: 1.3rem;
+}
+.signIn_main .cont .pop strong:nth-of-type(2){
+    float: right;
+    margin-right: 1.1rem;
+}
+.signIn_main .btn_signMe,.signIn_main .btn_groups>div{
+    margin:0.7rem auto;
+    width:9.9rem;
+    height:1.34rem;
+    background: #f1da3b;
+    font-size: 0.6rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.34rem;
+    border-radius: 0.2rem;
+    color: #f12d66;
+    text-decoration: none;
+}
+.signIn_main .btn_groups{
+    margin: 0 auto 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    width:9.9rem;
+
+}
+.signIn_main .btn_groups >div{
+    margin: 0;
+    width: 45%;
+}
+/*日历样式结束*/

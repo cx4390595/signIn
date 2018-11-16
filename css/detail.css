@@ -1,0 +1,127 @@
+.wap-main{
+    background: url("../images/bg.jpg") repeat top/contain;
+}
+img{
+    width: 100%;
+}
+.signInDetail_modC{
+    padding-bottom: 0.8rem;
+}
+.signInDetail_modC .banner{
+    position: relative;
+    width: 100%;
+}
+.signInDetail_modC .showNum_main{
+    position: relative;
+    margin:-0.3rem auto 0;
+    width: 12.88rem;
+    height: 8.72rem;
+    background: #fff;
+    border-radius: 0.4rem;
+}
+.signInDetail_modC .showNum_main .title{
+    position: absolute;
+    top:-0.5rem;
+    left: 50%;
+    margin-left: -3.86rem;
+    width: 7.72rem;
+    height: 1.3rem;
+    border-radius: 1rem;
+    background: #fff;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+.signInDetail_modC .showNum_main .title span{
+    position: absolute;
+    top:0.6rem;
+    left: 0;
+    width: 100%;
+    font-size: 0.72rem;
+    z-index: 1;
+}
+.signInDetail_modC .showNum_main .title span::after{
+    position: absolute;
+    content: "";
+    top: 0.4rem;
+    left: 50%;
+    margin-left:-2.99rem;
+    width: 5.98rem;
+    height: 0.72rem;
+    background: #fff850;
+    z-index: -1;
+}
+.signInDetail_modC .showNum_main .cont{
+    margin-top: 1rem;
+    text-align: center;
+    color: #ffa800;
+    font-weight: bold;
+}
+.signInDetail_modC .showNum_main .cont p{
+    font-size: 0.72rem;
+}
+.signInDetail_modC .showNum_main .invite_btn{
+    margin:1.2rem auto 0;
+    width:9.9rem;
+    height:1.34rem;
+    background: #f1da3b;
+    font-size: 0.6rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.34rem;
+    border-radius: 0.2rem;
+    color: #f12d66;
+    text-decoration: none;
+}
+.signInDetail_modC .showNum_main .invite_btn:nth-of-type(2){
+    margin-top: 0.2rem;
+}
+.signInDetail_modC .showNum_main .btn_groups{
+    display: flex;
+    justify-content: space-between;
+    margin:0.54rem auto;
+    width: 9.9rem;
+}
+.signInDetail_modC .showNum_main .btn_groups a{
+    font-size: 0.48rem;
+    text-decoration: underline;
+    color: #f12d66;
+}
+.signInDetail_modC .carousel{
+    margin: 0.4rem auto;
+    width: 13.04rem;
+    height: 1.92rem;
+    border-radius: 0.52rem;
+    border: 0.02rem dashed #ffa800;
+    font-size: 0.6rem;
+    overflow: hidden;
+    background: rgba(254, 252, 216, 0.25);
+}
+.signInDetail_modC .footer{
+    margin: auto;
+    width: 13.04rem;
+    min-height: 7.34rem;
+    border: 0.02rem solid #ffa800;
+    border-radius: 0.6rem;
+    color: #dd640b;
+    background: #fff;
+}
+.signInDetail_modC .footer .title{
+    padding: 0.6rem 0;
+    letter-spacing: 0.1rem;
+    font-size: 0.6rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+.signInDetail_modC .footer ul{
+    margin-left: 1rem;
+    margin-right: 0.2rem;
+}
+.signInDetail_modC .footer ul li{
+    font-size:0.48rem ;
+    line-height: 0.8rem;
+}
+.signInDetail_modC .footer ul li b{
+    color: #9c6700;
+}
